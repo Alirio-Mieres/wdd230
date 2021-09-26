@@ -1,0 +1,44 @@
+@media only screen and (min-width: 80em) {
+  .grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      gap: 1em;
+      margin: 8em;
+
+  }
+
+  .page{
+    font-size: 1.2em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  .left{
+    grid-column: 1/2;
+  }
+
+  .center{
+    grid-column: 2/3;
+  }
+ 
+  .right{
+    grid-column: 3/4;
+  }
+  footer{
+    margin-top: -2em;
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+  header{
+    margin-bottom: -4em;
+    margin-right: 5em;
+    margin-left: 5em;
+    font-size: 1.4em;
+  }
+}

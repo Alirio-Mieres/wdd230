@@ -1,0 +1,8 @@
+@media only screen and (min-width: 32.5em) {
+  .perfil-image{
+    float: right;
+    margin-top: 2em;
+    margin-right: 1em;
+    box-shadow: 0 0 30px #444;
+  }
+}

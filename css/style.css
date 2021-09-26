@@ -1,5 +1,4 @@
 .perfil-image{
-  float: right;
   margin-top: 2em;
   margin-right: 1em;
 }
@@ -37,4 +36,12 @@ footer{
 
 .lessons{
   font-size: 2em;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-information a{
+  color: #533747;
 }
