@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Town Page</title>
+  <meta name="description" content="Preston Town Page project by Alirio Mieres">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <script defer src="js/preston.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-box">
+     <img src="images/weather-cloud.png" alt="Logo Idaho Weather Cloud">
+    </div>
+  
+    <section class="principle">
+      <h1>Idaho Weather Cloud</h1>
+      <p>The best place to know the weather.</p>
+    </section>
+    
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="preston-4.html">Preston</a></li>
+      <li><a href="">Soda Springs</a></li>
+      <li><a href="">Fish Haven</a></li>
+      <li><a href="">Storm Center</a></li>
+      <li><a href="">Gallery</a></li>
+    </ul>
+  </nav>
+  <div id="content">
+  <main>
+    <div class="contentbox">Hero w/ weather summary</div>
+    <div class="contentbox">5 Day Forecast</div>
+    <div class="contentbox">Article</div>
+    <div class="contentbox">Contact information</div>
+  </main>
+
+  <footer>
+    <p class="footer-information">&copy; <span id="copyrightyear"></span> Idaho Weather Cloud | Attributions | Alirio Mieres</p>
+    <p class="updated"><span id="lastupdated"></span></p>
+  </footer>
+</div>
+</body>
+</html>
