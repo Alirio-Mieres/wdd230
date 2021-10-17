@@ -38,4 +38,10 @@
   .summary p{
     margin-left: 0;
   }
+  
+  .article-preston img{
+    float: right;
+    max-width: 25%;
+    margin-top: -5em;
+  }
 }

@@ -148,3 +148,12 @@ h3{
 .summary p{
   margin-left: 1.5em;
 }
+
+.article-preston img{
+  max-width: 100%;
+}
+
+.article-preston{
+  background-color: #70C1B3;
+  padding: 1.5em;
+}
