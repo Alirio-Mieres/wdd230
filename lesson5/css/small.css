@@ -86,3 +86,65 @@ footer {
 
 }
 
+.message{
+  text-align: center;
+}
+
+.day-grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+
+.day-grid img{
+  max-width: 100%;
+}
+.col-head {
+	display: block;
+	border-bottom: 1px solid #333;
+	text-align: center;
+  margin-top: 1em;
+  margin-bottom: -1.5em;
+}
+
+.data {
+	display: block;
+	font-size: 1.2em;
+	text-align: center;
+  margin-top: -1.5em;
+}
+.grid-col {
+	background-color: #F25F5C;
+  border: 1px solid #333;
+}
+
+.banner-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner-box img {
+  width: 100%;
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.summary{
+  background-color: #FFE066;
+  padding: 1.5em;
+}
+
+.summary h2{
+  text-align: center;
+}
+
+.summary p{
+  margin-left: 1.5em;
+}

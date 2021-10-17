@@ -23,4 +23,19 @@
     padding: .8rem 2.5rem;
   }
   
+  .summary{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(209, 231, 12, 0.795);
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: max-content;
+  }
+  .summary p{
+    margin-left: 0;
+  }
 }

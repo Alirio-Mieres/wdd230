@@ -14,14 +14,19 @@
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
   <script defer src="js/preston.js"></script>
+  <script defer src="js/banner.js"></script>
+
 </head>
 
 <body>
+  <div class="message">
+    <p><span id="banner"></span></p>
+  </div>
   <header>
     <div class="logo-box">
      <img src="images/weather-cloud.png" alt="Logo Idaho Weather Cloud">
     </div>
-  
+    
     <section class="principle">
       <h1>Idaho Weather Cloud</h1>
       <p>The best place to know the weather.</p>
@@ -33,7 +38,7 @@
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="primaryNav" class="hide">
       <li><a href="../index.html">Home</a></li>
-      <li><a href="preston-4.html">Preston</a></li>
+      <li><a href="preston-5.html">Preston</a></li>
       <li><a href="">Soda Springs</a></li>
       <li><a href="">Fish Haven</a></li>
       <li><a href="">Storm Center</a></li>
@@ -41,11 +46,55 @@
     </ul>
   </nav>
   <div id="content">
+
   <main>
-    <div class="contentbox">Hero w/ weather summary</div>
-    <div class="contentbox">5 Day Forecast</div>
+    <h3>Preston Idaho</h3>
+    <div class="banner-box">
+      <img src="images/heroimage.jpg">     
+      <section class="summary">
+
+        <h2>Weather Summary</h2>
+        <p>Currently: Sunny</p>
+        <p>High: 76 °F</p>
+        <p>Wind Chill: °F</p>
+        <p>Humidity: 69% </p>
+        <p>Wind Speed: 5 mph </p>
+      
+      </section>
+      </div>
+
+    <div class="day-grid">
+      <div class="grid-col">
+        <span class="col-head">Wed</span>
+        <img src=images/weather.png alt="Cloud image">
+        <span class="data">89°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Thu</span>
+        <img src=images/weather.png alt="Cloud image">
+        <span class="data">87°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Fri</span>
+        <img src=images/weather.png alt="Cloud image">
+        <span class="data">78°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Sat</span>
+        <img src=images/weather.png alt="Cloud image">
+        <span class="data">75°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Sun</span>
+        <img src=images/weather.png alt="Cloud image"> 
+        <span class="data">72°F</span>
+      </div>
+    </div>
+
     <div class="contentbox">Article</div>
+
     <div class="contentbox">Contact information</div>
+    
   </main>
 
   <footer>
@@ -55,3 +104,5 @@
 </div>
 </body>
 </html>
+
+
