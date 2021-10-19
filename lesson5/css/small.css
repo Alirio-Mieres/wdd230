@@ -105,15 +105,15 @@ footer {
 	display: block;
 	border-bottom: 1px solid #333;
 	text-align: center;
-  margin-top: 1em;
-  margin-bottom: -1.5em;
+
+
 }
 
 .data {
 	display: block;
 	font-size: 1.2em;
 	text-align: center;
-  margin-top: -1.5em;
+
 }
 .grid-col {
 	background-color: #F25F5C;
@@ -156,4 +156,9 @@ h3{
 .article-preston{
   background-color: #70C1B3;
   padding: 1.5em;
+}
+
+
+.message{
+  display: none;
 }

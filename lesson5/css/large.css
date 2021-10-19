@@ -44,4 +44,8 @@
     max-width: 25%;
     margin-top: -5em;
   }
+
+  .day-grid img{
+    margin-left: 1em;
+  }
 }
