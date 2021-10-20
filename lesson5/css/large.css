@@ -48,4 +48,37 @@
   .day-grid img{
     margin-left: 1em;
   }
+
+  .map-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .map{
+    grid-column: 1;
+    grid-row: 1;
+
+    margin-left: 5em;
+  }
+  .map img{
+    max-width: 100%;
+  }
+
+  .info{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .contact{
+    margin-top: 3em;
+  }
+  .info-p{
+    margin: 0;
+  }
+
+
 }

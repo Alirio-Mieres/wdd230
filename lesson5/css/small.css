@@ -62,6 +62,11 @@ nav ul.hide {
   display: none;
 }
 
+nav ul li.active a {
+  background-color: #247BA0;
+  color: white;
+}
+
 .contentbox{
   display: block;
   background-color: #ccc;
@@ -162,3 +167,19 @@ h3{
 .message{
   display: none;
 }
+
+.map img{
+  max-width: 100%;
+}
+
+.info-p{
+  text-align: center;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
