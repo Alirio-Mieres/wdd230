@@ -56,6 +56,7 @@
   }
   
 
+  
   .map{
     grid-column: 1;
     grid-row: 1;
@@ -77,6 +78,7 @@
   .contact{
     margin-top: 3em;
   }
+  
   .info-p{
     margin: 0;
   }
