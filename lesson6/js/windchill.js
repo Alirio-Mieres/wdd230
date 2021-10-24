@@ -1,4 +1,4 @@
-function doInputOputout(){
+function wind(){
     let tempF = parseFloat(document.getElementById("temperature").textContent);
     let speed = parseFloat(document.getElementById("windspeed").textContent);
     let calculateChild = windChill(tempF, speed);
@@ -18,4 +18,4 @@ function windChill(t, s) {
     }
 }
 
-doInputOputout()
+wind()
