@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Town Page</title>
+  <meta name="description" content="Preston Town Page project by Alirio Mieres">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <!-- <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Slab&display=swap" rel="stylesheet">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <script defer src="js/preston.js"></script>
+  <script defer src="js/windchill.js"></script>
+
+
+</head>
+
+<body>
+
+    <p class="message"><span id="message"></span></p>
+
+  <header>
+    <div class="logo-box">
+     <img src="images/weather-cloud.png" alt="Logo Idaho Weather Cloud">
+    </div>
+    
+    <section class="principle">
+      <h1>Idaho Weather Cloud</h1>
+      <p>The best place to know the weather.</p>
+    </section>
+    
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="../index.html">Home</a></li>
+      <li class="active"><a href="preston-5.html">Preston</a></li>
+      <li><a href="">Soda Springs</a></li>
+      <li><a href="">Fish Haven</a></li>
+      <li><a href="">Storm Center</a></li>
+      <li><a href="">Gallery</a></li>
+    </ul>
+  </nav>
+
+
+ 
+  <main>
+    <div id="content">
+    <h3>Preston Idaho</h3>
+    <div class="banner-box">
+      <picture>
+        <source  media="(max-width: 499px)" srcset="images/small2.jpg">
+        <source  media="(max-width: 800px)" srcset="images/medium.jpg">
+        <img src="images/large.jpg" alt="banner image">
+    </picture>    
+
+      <section class="summary">
+
+        <h2>Weather Summary</h2>
+        <p>Currently: Sunny</p>
+        <p>Temperature: <span id="temperature">48</span> °F</p>
+        <p>Wind Speed: <span id="windspeed">5</span> mph</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+
+      
+      </section>
+      </div>
+
+    <div class="day-grid">
+      <div class="grid-col">
+        <span class="col-head">Wed</span>
+        <img src=images/sun.png alt="Sun image">
+        <span class="data">89°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Thu</span>
+        <img src=images/sun.png alt="Cloud image">
+        <span class="data">87°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Fri</span>
+        <img src=images/sun.png alt="Cloud image">
+        <span class="data">78°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Sat</span>
+        <img src=images/sun.png alt="Cloud image">
+        <span class="data">75°F</span>
+      </div>
+      <div class="grid-col">
+        <span class="col-head">Sun</span>
+        <img src=images/sun.png alt="Cloud image">
+        <span class="data">72°F</span>
+      </div>
+    </div>
+
+    <section class="article-preston">
+      <h2>Preston Weather</h2>
+      <p><img src="images/article-img.jpg" alt="Forest landscape">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestias rem saepe minus iure et dolore enim sit maxime non provident repellendus
+      dignissimos magni fugiat incidunt, sequi mollitia quisquam excepturi.</p>
+      
+    </section>
+  </div>
+
+    <div class="map-section">
+    
+    <section class="info">
+      <h3 class="contact">Contact Information</h3>
+      <p class="info-p">idaho-weather@gmail.com</p>
+      <p class="info-p">878-414-1234</p>
+
+    <div class="social">
+        <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
+        <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Youtube icon"></a> 
+        <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="Twitter icon"></a>
+      </div>
+    </section>
+
+    <div class="map">
+      
+      <img src="images/preston-map.jpg" alt="Preston map">
+    </div>
+
+    </div>
+      
+  </main>
+
+  <footer>
+    <p class="footer-information">&copy; <span id="copyrightyear"></span> Idaho Weather Cloud | Attributions | Alirio Mieres</p>
+    <p class="updated"><span id="lastupdated"></span></p>
+  </footer>
+
+  <script src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"> </script>
+  <script src="js/webfont.js">
+
+</script>
+</body>
+</html>
+
+
