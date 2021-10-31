@@ -1,0 +1,87 @@
+@media only screen and (min-width: 61rem){
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul {
+    margin-left: 18.5%;
+    text-align: center;
+ 
+  }
+
+  nav ul li {
+    float: left;
+  }
+ 
+
+  nav ul li a {
+    border: none;
+    padding: .8rem 2.5rem;
+  }
+  
+  .summary{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(209, 231, 12, 0.795);
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: max-content;
+  }
+  .summary p{
+    margin-left: 0;
+  }
+  
+  .article-preston img{
+    float: right;
+    max-width: 25%;
+    margin-top: -5em;
+  }
+
+  .day-grid img{
+    margin-left: 1em;
+  }
+
+  .map-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+
+  
+  .map{
+    grid-column: 1;
+    grid-row: 1;
+
+    margin-left: 5em;
+  }
+  .map img{
+    max-width: 100%;
+  }
+
+  .info{
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .contact{
+    margin-top: 3em;
+  }
+  
+  .info-p{
+    margin: 0;
+  }
+
+  
+}
