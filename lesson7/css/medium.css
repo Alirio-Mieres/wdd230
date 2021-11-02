@@ -29,4 +29,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
   }
+  .last_visit_day{
+    font-size: 2em;
+  }
 }

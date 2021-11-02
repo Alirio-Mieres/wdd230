@@ -54,9 +54,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
-  
-
-  
+    
   .map{
     grid-column: 1;
     grid-row: 1;
@@ -93,6 +91,8 @@
     box-shadow: rgb(38, 60, 80) 0px 20px 35px -10px;
   }
 
-
+  .last_visit_day{
+    font-size: 3em;
+  }
   
 }
