@@ -190,7 +190,23 @@ h3{
   align-items: center;
 }
 
-figcaption{
+
+#content-gallery{
+  display: block;
+}
+
+.gallery-text{
   text-align: center;
+  font-size: 1.2em;
   padding: 0.5em;
+}
+.gallery img{
+  width: 100%;
+}
+.last_visit_day{
+  text-align: right;
+  font-size: 3em;
+  display: flex; 
+  justify-content: center;
+  margin: 1.5em auto 1.5em;
 }

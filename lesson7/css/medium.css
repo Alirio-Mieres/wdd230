@@ -21,11 +21,12 @@
   .summary{
     margin: 0 20% 0 20%;
   }
-  #content-gallery{    max-width: 960px;
-    margin: 2em auto;
+  #content-gallery{
+    max-width: 960px;
+    margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 2em;
     display:grid;
-    grid-template-columns: 1fr 1fr; max-width: 100%
+    grid-template-columns: 1fr 1fr;
   }
 }
