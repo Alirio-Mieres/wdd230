@@ -56,10 +56,12 @@ nav ul li a:hover{
   content: "";
   display: table;
   clear: both;
+
 }
 
 nav ul.hide {
   display: none;
+
 }
 
 nav ul li.active a {
@@ -209,4 +211,12 @@ h3{
   display: flex; 
   justify-content: center;
   margin: 1.5em auto 1.5em;
+}
+
+.weather-gallery-title{
+  display: flex;
+  justify-content: center;
+  margin: 1.5em 1.5em;
+  font-size: 3em;
+  text-align: center;
 }
