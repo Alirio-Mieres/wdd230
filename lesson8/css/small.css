@@ -1,0 +1,222 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto Slab', serif;;
+}
+
+p{
+  font-family: 'Oxygen', sans-serif;
+}
+
+header{
+  background-color: #247BA0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.principle{
+  margin-top: 3em;
+}
+
+
+nav button{
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  color: #555;
+}
+
+nav {
+  background-color: #FFE066;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a{
+  display: block;
+  padding: .8rem 2%;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+nav ul li a:hover{
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+nav ul.hide {
+  display: none;
+
+}
+
+nav ul li.active a {
+  background-color: #247BA0;
+  color: white;
+}
+
+.contentbox{
+  display: block;
+  background-color: #ccc;
+  margin: 0.5em;
+  padding: 2em;
+  border: 1px dashed #000;
+}
+
+#content{
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+footer {
+  text-align: center;
+  background-color: #50514F;
+  padding: 0.8em;
+  margin-top: 2em;
+  color: white;
+
+}
+
+.message{
+  text-align: center;
+}
+
+.day-grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+
+.day-grid img{
+  max-width: 100%;
+}
+.col-head {
+	display: block;
+	border-bottom: 1px solid #333;
+	text-align: center;
+
+
+}
+
+.data {
+	display: block;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+.grid-col {
+	background-color: #F25F5C;
+  border: 1px solid #333;
+}
+
+.banner-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+picture{
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+picture img {
+  max-width: 100%;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.summary{
+  background-color: #FFE066;
+  padding: 1.5em;
+  grid-column: 1/-1;
+  margin: 0 10% 0 10%;
+}
+
+.summary h2, p{
+  text-align: center;
+}
+
+.summary p{
+  margin-left: 1.5em;
+}
+
+.article-preston img{
+  max-width: 100%;
+}
+
+
+.article-preston{
+  background-color: #70C1B3;
+  padding: 1.5em;
+}
+
+
+.message{
+  display: none;
+}
+
+.map img{
+  max-width: 100%;
+}
+
+
+.info-p{
+  text-align: center;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#content-gallery{
+  display: block;
+}
+
+.gallery-text{
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+.gallery img{
+  width: 100%;
+}
+.last_visit_day{
+  text-align: right;
+  font-size: 1em;
+  display: flex; 
+  justify-content: center;
+  margin: 1.5em auto 1.5em;
+}
+
+.weather-gallery-title{
+  display: flex;
+  justify-content: center;
+  margin: 1.5em 1.5em;
+  font-size: 3em;
+  text-align: center;
+}
