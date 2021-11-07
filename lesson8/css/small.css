@@ -223,10 +223,9 @@ h3{
 
 form fieldset{
   margin: 2rem 0;
-  padding: 1px solid #445ba9;
+  border: 1px solid #333;
   border-radius: 10px;
   padding: .5rem 2%;
-  
 }
 
 form legend{
