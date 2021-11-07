@@ -229,9 +229,11 @@ form fieldset{
 }
 
 form legend{
-  color: #445ba9;
   margin: 0 1rem;
-  padding: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #247BA0;
+  color: white;
+  border-radius: 4px;
 }
 
 form label.top, form div{
@@ -260,7 +262,7 @@ form label.sbs {
 
 form input.submitBtn{
   border: none;
-  background-color: #9c2c13;
+  background-color: #247BA0;
   color: white;
   border-radius: 1rem;
   padding: .75rem 1rem;
@@ -295,4 +297,12 @@ form label.range input{
   font-size: 1rem;
   width: 100%;
   max-width: 20rem;
+}
+
+.report{
+  text-align: center;
+}
+.thanks{
+  font-size: 1.5rem;
+  margin: 5rem 0 5rem 0;
 }

@@ -94,5 +94,23 @@
   .last_visit_day{
     font-size: 3em;
   }
+  form label.sbs{
+    padding: .4rem 0;
+  }
+  form legend{
+    font-size: 1.2rem;
+  }
+  form label.top, form div{
+    font-size: 1rem;
+  }
+  .range{
+    font-size: 1rem;
+  }
+  #content-storm{
+    max-width: 840px;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
   
 }
