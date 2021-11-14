@@ -306,3 +306,35 @@ form label.range input{
   font-size: 1.5rem;
   margin: 5rem 0 5rem 0;
 }
+
+.wireframe{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.img-wireframe img{
+  height: 1000px;
+  border: 2px solid #000;
+}
+
+
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.preston-twon {
+  grid-row-start: 1;
+}
+.soda-twon {
+  grid-row-start: 2;
+}
+.fish-twon {
+  grid-row-start: 3;
+}
+
+.cards section{
+  background-color: #333;
+  margin-top: 3rem;
+  padding: 0;
+}
