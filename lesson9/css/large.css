@@ -112,5 +112,38 @@
     margin-top: 2em;
     margin-bottom: 2em;
   }
+
+    
+  .cards section {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .soda-twon img{
+    margin: 0;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem -0.5rem 2rem 0;
+ }
+
+ .preston-twon{
+   grid-column: 1;
+   grid-row: 1;
+ }
+
+ .soda-twon{
+   grid-column: 2;
+   grid-row: 1;
+ }
+
+ .fish-twon{
+   grid-column: 3;
+   grid-row: 1;
+ }
   
 }

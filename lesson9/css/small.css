@@ -322,6 +322,8 @@ form label.range input{
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #70C1B3;
+
 }
 .preston-twon {
   grid-row-start: 1;
@@ -334,7 +336,13 @@ form label.range input{
 }
 
 .cards section{
-  background-color: #333;
-  margin-top: 3rem;
-  padding: 0;
+  background-color: #247BA0;
+  margin: 3rem 1rem 0rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.welcome{
+  text-align: center;
 }

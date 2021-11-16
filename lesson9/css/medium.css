@@ -1,7 +1,7 @@
 @media only screen and (min-width: 35rem) {
 
   #content{
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -32,4 +32,30 @@
   .last_visit_day{
     font-size: 2em;
   }
+
+
+  .cards{
+    padding: 1.5rem;
+  }
+  .cards section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+ }
+
+ .data-content {
+   grid-column: 1;
+ }
+
+ .soda-twon img{
+   grid-column: 1;
+   position: relative;
+   margin-top: -12rem;
+   margin-left: 3rem;
+  }
+
+ .soda-twon .data-content{
+   grid-column: 2;
+ }
+
 }
