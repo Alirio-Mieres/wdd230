@@ -21,7 +21,7 @@ fetch(forecastURL)
     for (let i = 0; i < 5; i++) {
       document.querySelector(`#temp${[i]}`).innerHTML = `${listForecast[i].main.temp.toFixed(1)} °F`;
       
-      const images = `http://openweathermap.org/img/w/${listForecast[i].weather[0].icon}.png`;
+      const images = `http://openweathermap.org/img/wn/${listForecast[i].weather[0].icon}.png`;
       const description = listForecast[i].weather[0].description;
       
       document.querySelector(`#img${[i]}`).setAttribute("src", images);
