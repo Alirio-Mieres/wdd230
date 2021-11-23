@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
   <script defer src="js/preston.js"></script>
-  <script defer src="js/api.js"></script>
-
+  <script defer src="js/api.js"></script> 
+  <script defer src="js/forecast.js"></script>
 
 </head>
 
@@ -72,33 +72,39 @@
       </section>
       </div>
 
-    <div class="day-grid">
-      <div class="grid-col">
-        <span class="col-head">Wed</span>
-        <img src=images/sun.png alt="Weather icon">
-        <span class="weather-data1">89°F</span>
+      <div class="day-grid">
+        <div class="grid-col" >
+          <span class="col-head" id="day0"></span>
+          <div class="forecast-img"><img src=images/sun.png alt="Sun image" id="img0"></div>
+          <span class="data" id="temp0">89°F</span>
+        </div>
+
+        <div class="grid-col">
+          <span class="col-head" id="day1"></span>
+          <div class="forecast-img"><img src=images/sun.png alt="Cloud image" id="img1"></div>
+          <span class="data" id="temp1">87°F</span>
+        </div>
+
+        <div class="grid-col">
+          <span class="col-head" id="day2"></span>
+          <div class="forecast-img"><img src=images/sun.png alt="Cloud image" id="img2"></div>
+          <span class="data" id="temp2">78°F</span>
+        </div>
+
+        <div class="grid-col">
+          <span class="col-head" id="day3"></span>
+          <div class="forecast-img"><img src=images/sun.png alt="Cloud image" id="img3"></div>
+          <span class="data" id="temp3">75°F</span>
+        </div>
+
+        <div class="grid-col">
+          <span class="col-head" id="day4"></span>
+          <div class="forecast-img"><img src=images/sun.png alt="Cloud image" id="img4"></div>
+          <span class="data" id="temp4">72°F</span>
+        </div>
+
       </div>
-      <div class="grid-col">
-        <span class="col-head">Thu</span>
-        <img src=images/sun.png alt="Weather icon">
-        <span class="weather-data2">87°F</span>
-      </div>
-      <div class="grid-col">
-        <span class="col-head">Fri</span>
-        <img src=images/sun.png alt="Weather icon">
-        <span class="weather-data3">78°F</span>
-      </div>
-      <div class="grid-col">
-        <span class="col-head">Sat</span>
-        <img src=images/sun.png alt="Weather icon">
-        <span class="weather-data4">75°F</span>
-      </div>
-      <div class="grid-col">
-        <span class="col-head">Sun</span>
-        <img src=images/sun.png alt="Weather icon">
-        <span class="weather-data5">72°F</span>
-      </div>
-    </div>
+      
 
     <section class="article-preston">
       <h2>Preston Weather</h2>
@@ -107,6 +113,7 @@
       
     </section>
   </div>
+  
 
     <div class="map-section">
     
@@ -114,12 +121,12 @@
       <h3 class="contact">Contact Information</h3>
       <p class="info-p">idaho-weather@gmail.com</p>
       <p class="info-p">878-414-1234</p>
-
-    <div class="social">
-        <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
-        <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Youtube icon"></a> 
-        <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="Twitter icon"></a>
-      </div>
+    
+        <div class="social">
+          <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
+          <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Youtube icon"></a> 
+          <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="Twitter icon"></a>
+        </div>
     </section>
 
     <div class="map">

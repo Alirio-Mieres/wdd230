@@ -1,4 +1,4 @@
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=4b98d1ee85ba9dea6016b5a7682cce3f&units=imperial"
+const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=4b98d1ee85ba9dea6016b5a7682cce3f&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -23,44 +23,4 @@ fetch(apiURL)
     
   });
 
-
-const mydate = new Date();
-
-const todayDayNumber = mydate.getDay();
-
-
-const myweekday = new Array(7);
-myweekday[0] = "Sunday";
-myweekday[1] = "Monday";
-myweekday[2] = "Tuesday";
-myweekday[3] = "Wednesday";
-myweekday[4] = "Thursday";
-myweekday[5] = "Friday";
-myweekday[6] = "Saturday";
-
-
-const forecastURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=4b98d1ee85ba9dea6016b5a7682cce3f&units=imperial"
-
-fetch(forecastURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-  console.log(jsObject);
-
-  let mylist = jsObject.list;
-    let forecastDayNumber = todayDayNumber;
-
-    for (i = 0; i < mylist.length; i++){
-      let time = mylist[i].dt_txt;
-
-      if (time.includes("21:00:00")) {
-         
-        forecastDayNumber += 1;
-        if (forecastDayNumber===7){forecastDayNumber = 0;}
-        
-        let theDayName = document.querySelector(".") 
-
-        document.querySelector("")
-      }
-    }
-  });
 

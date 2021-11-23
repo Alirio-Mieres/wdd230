@@ -108,11 +108,11 @@ footer {
 .day-grid img{
   max-width: 100%;
 }
+
 .col-head {
 	display: block;
 	border-bottom: 1px solid #333;
 	text-align: center;
-
 
 }
 
@@ -125,6 +125,17 @@ footer {
 .grid-col {
 	background-color: #F25F5C;
   border: 1px solid #333;
+}
+
+.data {
+	display: block;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.forecast-img{
+  display: flex;
+  justify-content: center;
 }
 
 .banner-box {
