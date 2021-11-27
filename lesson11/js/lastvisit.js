@@ -4,7 +4,7 @@ let lastVisited = window.localStorage.getItem('lastVisit');
 
 if (lastVisited != 'undefined' && lastVisited != null) {
     
-    const oneDay = 8640000;
+    const oneDay = 86400000;
 
     const numberOfDays = Math.floor((now - lastVisited) / oneDay);
 
