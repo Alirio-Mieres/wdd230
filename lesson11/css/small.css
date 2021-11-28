@@ -13,9 +13,15 @@ header{
   justify-content: center;
   align-items: center;
 }
+.logo-box img{
+  width: 100%;
+
+}
 
 .principle{
   margin-top: 3em;
+  text-align: center;
+  font-size: 90%;
 }
 
 
@@ -152,7 +158,7 @@ picture img {
   max-width: 100%;
 }
 
-h3{
+h2{
   text-align: center;
   font-size: 1.5em;
 }
