@@ -7,7 +7,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject); 
     const towns = jsonObject['towns'];
-    const townsFiltered = towns.filter((x) => x.name.includes("Preston"));
+    const townsFiltered = towns.filter((x) => x.name.includes("Soda Springs"));
     let length = townsFiltered[0].events.length;
     for (let i = 0; i < length; i++ ){
       let townEvent = document.createElement("li");

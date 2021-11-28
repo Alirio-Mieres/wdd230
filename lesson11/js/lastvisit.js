@@ -1,22 +1,12 @@
-let now = Date.now();
+const currentVisit = new Date().getTime(); 
 
-let lastVisited = window.localStorage.getItem('lastVisit');
+const myStorage = window.localStorage;
 
-if (lastVisited != 'undefined' && lastVisited != null) {
-    
-    const oneDay = 86400000;
-
-    const numberOfDays = Math.floor((now - lastVisited) / oneDay);
-
-    if (numberOfDays === 0 || numberOfDays >= 2) {
-        document.querySelector('.last_visit_day').textContent = `Last visited: ${numberOfDays} days ago`;
-    }
-    else if (numberOfDays === 1) {
-        document.querySelector('.last_visit_day').textContent = `Last visit: ${numberOfDays} day ago`;
-    }
+if (myStorage.getItem("lastVisit")) {
+  let previousVisit = myStorage.getItem("lastVisit");
+  const numberOfDays = Math.trunc((currentVisit - previousVisit) / 86400000);
+  document.querySelector(".last_visit_day").innerText = `Days since the last visit: ${numberOfDays}`;
+} else {
+  document.querySelector(".last_visit_day").innerText = `Days since the last visit: 0`;
 }
-else {
-    document.querySelector('.last_visit_day').textContent = `Last visited: never`;
-}
-
-window.localStorage.setItem('lastVisit', now);
+myStorage.setItem("lastVisit", currentVisit);

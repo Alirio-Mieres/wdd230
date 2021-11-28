@@ -367,3 +367,16 @@ form label.range input{
 .weather-data{
     color: #247BA0;
 }
+
+.information-city{
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #247BA0;
+  margin: 2rem 1rem 2rem;
+  padding: 2rem;
+}
+
+.information-city ul{
+  list-style: none;
+  margin-left: -1.5rem;
+}

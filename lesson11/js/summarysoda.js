@@ -1,4 +1,4 @@
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=4b98d1ee85ba9dea6016b5a7682cce3f&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5607916&appid=4b98d1ee85ba9dea6016b5a7682cce3f&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -9,9 +9,9 @@ fetch(apiURL)
 
     console.log(jsObject);
     document.getElementById('description').textContent = jsObject.weather[0].description;
-    document.getElementById('temperature').textContent = `${jsObject.main.temp}`;
+    document.getElementById('temperature').textContent = `${Math.round(jsObject.main.temp)}`;
     document.getElementById('humidity').textContent = `${jsObject.main.humidity} %`;
-    document.getElementById('windspeed').textContent = `${jsObject.wind.speed}`;
+    document.getElementById('windspeed').textContent = `${Math.round(jsObject.wind.speed)}`;
     if (t <= 50 && s > 3) {
         document.querySelector('#windchill').textContent = `${Math.round(windchill)} °F`;
     }
