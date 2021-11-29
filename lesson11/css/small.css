@@ -375,8 +375,14 @@ form label.range input{
   margin: 2rem 1rem 2rem;
   padding: 2rem;
 }
+.information-city h3{
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+  margin: 1rem 15rem 1rem;
+}
 
 .information-city ul{
   list-style: none;
   margin-left: -1.5rem;
+
 }

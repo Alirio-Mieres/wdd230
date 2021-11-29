@@ -19,7 +19,7 @@ fetch(forecastURL)
   .then((jsObject) => {
     const listForecast = jsObject.list.filter((d) => d.dt_txt.includes("18:00:00"));
     for (let i = 0; i < 5; i++) {
-      document.querySelector(`#temp${[i]}`).innerHTML = `${Math.round(listForecast[i].main.temp.toFixed(1))} °F`;
+      document.querySelector(`#temp${[i]}`).innerHTML = `${Math.round(listForecast[i].main.temp)} °F`;
       
       const images = `http://openweathermap.org/img/wn/${listForecast[i].weather[0].icon}.png`;
       const description = listForecast[i].weather[0].description;
