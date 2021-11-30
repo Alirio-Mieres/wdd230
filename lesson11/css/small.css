@@ -198,6 +198,18 @@ h2{
 }
 
 
+
+.map-section{
+  background-color: #247BA0;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.contact{
+  text-align: center;
+}
+
+
 .info-p{
   text-align: center;
 }
