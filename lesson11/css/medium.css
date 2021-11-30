@@ -10,6 +10,22 @@
   .principle{
     font-size: 1.5em;
   }
+  
+  .map-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+    
+  .map{
+    grid-column: 1;
+    grid-row: 1;
+
+    margin-left: 5em;
+  }
+  .map img{
+    max-width: 100%;
+  }
 
   footer{
     font-size: 1.2em;
@@ -57,5 +73,17 @@
  .soda-twon .data-content{
    grid-column: 2;
  }
+  .home-introduction h3{
+    font-size: 1.8em;
+  }
+
+  .home-introduction p{
+    font-size: 1.3em;
+    
+  }
+
+  .title{
+    font-size: 2rem;
+  }
 
 }

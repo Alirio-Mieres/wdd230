@@ -351,7 +351,7 @@ form label.range input{
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #70C1B3;
+  background-color: #77b9aea1;
 
 }
 .preston-twon {
@@ -366,15 +366,21 @@ form label.range input{
 
 .cards section{
   background-color: #247BA0;
-  margin: 3rem 1rem 0rem;
+  color: white;
+  margin-top: 2rem;
   padding: 1rem;
   text-align: center;
-  border-radius: 10px;
-}
 
-.welcome{
+}
+h3{
   text-align: center;
 }
+
+.cards h4{
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
 
 .weather-data{
     color: #247BA0;
@@ -398,3 +404,4 @@ form label.range input{
   margin-left: -1.5rem;
 
 }
+

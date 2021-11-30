@@ -11,8 +11,8 @@ fetch(requestURL)
 
         let townSection = document.createElement("section");
         let data = document.createElement("div");
-        let townName = document.createElement("h2");
-        let motto = document.createElement("p");
+        let townName = document.createElement("h3");
+        let motto = document.createElement("h4");
         let yearFounded = document.createElement("p");
         let currentPopulation = document.createElement("p");
         let anualRainFall = document.createElement("p");
