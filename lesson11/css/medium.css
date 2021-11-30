@@ -16,7 +16,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
-    
+  .logo-box img{
+    width: 100%;
+  }
   .map{
     grid-column: 1;
     grid-row: 1;
