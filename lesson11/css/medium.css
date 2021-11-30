@@ -94,17 +94,13 @@
     grid-column: 1/3;
   }
 
-  .article-preston p{
+  .p-article{
     grid-column: 1;
     text-align:left;
   }
 
   .article-preston img{
-    margin-top: -18em;
     grid-column: 2;
-  }
-  .article-preston ul{
-    grid-column: 1/3;
   }
 
   .day-grid img{
@@ -112,7 +108,22 @@
   }
 
   .p-article{
+    grid-column: 1/2;
+
+  }
+  .article-img{
+    margin-top: -30em;
+  }
+
+  .article-img-preston{
+    margin-top: -25em;
+  }
+  .article-img{
+    margin-top: -30em;
+  }
+  .p-fish{
     grid-column: 1/3;
+    text-align: left;
 
   }
 

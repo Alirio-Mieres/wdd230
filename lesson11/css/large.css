@@ -42,6 +42,8 @@
   
 
 
+
+
   .info{
     grid-column: 2;
     grid-row: 1;
@@ -130,12 +132,11 @@
    grid-row: 1;
  }
  .p-fish{
-   grid-column: 2;
- }
-
- .article-img-fish{
-   grid-column: 1;
- }
+  grid-column: 1;
+  }
+  .article-img{
+    margin-top: -20em;
+  }
 
 
 }

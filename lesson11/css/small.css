@@ -129,7 +129,7 @@ footer {
 }
 
 .grid-col {
-	background-color: #F25F5C;
+	background-color: #70C1B3;
   border: 1px solid #333;
 }
 
@@ -383,7 +383,7 @@ h3{
 
 
 .weather-data{
-    color: #247BA0;
+    color: #70C1B3;
 }
 
 .information-city{
@@ -399,5 +399,4 @@ h3{
   list-style: none;
   margin-left: -1.5rem;
 }
-
 
