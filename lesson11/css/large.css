@@ -40,34 +40,6 @@
     margin-top: 11.5px;
   }
   
-  .article-preston{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-  .article-preston h2{
-    grid-column: 1/3;
-  }
-
-  .article-preston p{
-    grid-column: 1;
-    text-align:left;
-  }
-
-  .article-preston img{
-    /*float: right;
-    max-width: 25%;*/
-    margin-top: -18em;
-    grid-column: 2;
-  }
-  .article-preston ul{
-    grid-column: 1/3;
-  }
-
-  .day-grid img{
-    margin-left: 1em;
-  }
-
 
 
   .info{
@@ -156,6 +128,13 @@
  .fish-twon{
    grid-column: 3;
    grid-row: 1;
+ }
+ .p-fish{
+   grid-column: 2;
+ }
+
+ .article-img-fish{
+   grid-column: 1;
  }
 
 
