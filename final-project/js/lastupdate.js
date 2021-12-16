@@ -1,4 +1,4 @@
-//document.querySelector("#copyrightyear").textContent = new Date().getFullYear();;
+document.querySelector("#copyrightyear").textContent = new Date().getFullYear();;
 
 let commerce = new Date(document.lastModified);
 
