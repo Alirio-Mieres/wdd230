@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puerto Ordaz Chamber of Commerce</title>
+  <meta name="description" content="/////////">
+  <!---->
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href=".//images/favicon.ico">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!--Link CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <!--Script-->
+  <script defer src="../final-project/js/lastupdate.js"></script>
+  <script defer src="../final-project/js/forecast.js"></script>
+  <script defer src="../final-project/js/menu.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <!--Logo-->
+    <div class="logo-box">
+      <img src="../final-project/images/logo.png" alt="Logo Puerto Ordaz Commerce">
+    </div>
+    
+    <!--Title-->
+    <section class="principle"></section>
+    <h1>Puerto Ordaz Chamber of Commerce</h1>
+    <!--Words inspirationals-->
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+  </section>
+
+  </header>
+  
+  <nav> 
+    <ul id="primaryNav" class="hide">
+
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="city.html">The City</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!--images of the municipality and join BECOME A MEMBER-->
+    <section class="intro">
+
+      <h2>Discover the commerce of Puerto Ordaz</h2>
+      <a href="./join.html">Join us</a>
+
+      <picture>
+        <source media="(max-width: 499px)" srcset="images/preston-hero-small.jpg">
+        <source media="(max-width: 800px)" srcset="images/preston-hero-medium.jpg">
+        <img src=".//images/images2.jpg" alt="banner image">
+      </picture>
+    </section>
+
+
+
+    <!--a description of the purpose of the chamber and its goals-->
+
+    <section>
+      <h3>The Chamber of Commerce</h3>
+      <p>The purpose of Puerto Ordaz Commerce is to generate interest and enthusiasm in local businesses. We are
+        committed to the community, and we are constantly holding events and charities.
+        We want you to be successful in your business, when entering Puerto Ordaz Commerce, you will obtain unmatched
+        benefits. We have the best advice, and our north is always teamwork. Do not wait any longer and join.</p>
+    </section>
+
+    <!--section highlighting three local companies-->
+
+    <section>
+      <h3>Local Company Advertisement</h3>
+
+      <article>
+        <img src="../final-project/images/traki.jpg" alt="Traki logo">
+        <p>resumen traki</p>
+      </article>
+      <article>
+        <img src="../final-project/images/daka.jpg" alt="Daka logo">
+        <p>resumen daka</p>
+      </article>
+      <img src="../final-project/images/ribs.jpg" alt="Ribs logo">
+      <p>resumen Ribs</p>
+      <article>
+
+      </article>
+    </section>
+
+    <!--an upcoming events area-->
+
+    <section>
+      <h3>Upcoming Events</h3>
+
+      <article>
+        <h3>Dance MasterClass ⁣</h3>
+        <p>December 17 2021<br>
+          3:00 PM
+        </p>
+        <img src="../final-project/images/dancemaster.jpg" alt="Dance MasterClass event">
+        <p>
+          The purpose of this activity is to collect with each of the attendees or sponsors a new or used toy in good
+          condition to give this Christmas to children with few resources.
+          The appointment is next Friday from 3 pm in the parking lot of the Plaza Atlántico Mall, to have fun, sweat,
+          and fill with joy the Christmas of many of the children in the city.
+        </p>
+      </article>
+
+      <article>
+        <h3>Expo Meru</h3>
+        <p>December 21 2021<br>
+          10:00 AM
+        </p>
+        <img src="../final-project/images/meru.jpg" alt="">
+        <p>
+          The Plaza Meru hotel invites you to the 32nd edition called "Expo Merú Navideña Recargada". Enjoy and live an
+          unforgettable experience with us and the talented bands of the city.
+        </p>
+      </article>
+
+
+
+      <article>
+        <h3>World Cup Qualification CONMEBOL 1st round</h3>
+        <p>
+          January 27 2022
+          5:00 PM
+        </p>
+        <img src="../final-project/images/footballevent.jpg" alt="Football event">
+        <p>
+          Enjoy the match that our team will have here in Puerto Ordaz to qualify for the World Cup.
+        </p>
+      </article>
+    </section>
+
+
+
+    <!--display and label a three day forecast of the "day" temperature using the current date-->
+    <section class="summary">
+      <h3>Weather Summary</h3>
+      <p>Currently: <span id="description">Sunny</span></p>
+      <p>Temperature: <span id="temperature">48</span> °F</p>
+      <p>Humidity: <span id="humidity"></span></p>
+    </section>
+
+    <h3>3 Days forecast</h3>
+    <div class="day-grid">
+      <div class="grid-col">
+        <span class="col-head" id="day0"></span>
+        <div class="forecast-img"><img src=images/sun.png alt="Sun image" id="img0"></div>
+        <span class="data" id="temp0">89°F</span>
+      </div>
+
+      <div class="grid-col">
+        <span class="col-head" id="day1"></span>
+        <div class="forecast-img"><img src=images/sun.png alt="Cloud image" id="img1"></div>
+        <span class="data" id="temp1">87°F</span>
+      </div>
+
+      <div class="grid-col">
+        <span class="col-head" id="day2"></span>
+        <div class="forecast-img"><img src=images/sun.png alt="Cloud image" id="img2"></div>
+        <span class="data" id="temp2">78°F</span>
+      </div>
+    </div>
+
+    <!--contact information, social media links (at least two and it is OK if they are not linked to a real account),-->
+    <section>
+    <h3>Contact Information</h3>
+    <p class="info-p">pozcommerce@gmail.com</p>
+    <p class="info-p">878-414-1234</p>
+    <div class="social">
+      <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
+      <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Youtube icon"></a>
+      <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="Twitter icon"></a>
+    </div>
+  </section>
+
+
+  </main>
+
+  <footer>
+    <p class="footer-information">&copy; <span id="copyrightyear"></span> Puerto Ordaz Commerce | <a
+        href="attributions.html">Attributions</a> | Alirio Mieres</p>
+    <p class="updated">Last updated: <span id="lastupdated"></span></p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"> </script>
+  <script src="js/webfont.js"></script>
+
+</body>
+
+</html>

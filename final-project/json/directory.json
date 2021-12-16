@@ -1,0 +1,53 @@
+{
+  "businesses": [{
+      "name": "Daka",
+      "logo": "daka.jpg",
+      "contactnumber": "(0412)-462 42 18",
+      "email": "dakavzla@gmail.com",
+      "website": "https://itsmy.bio/TiendasDaka"
+    },
+
+    {
+      "name": "Traki",
+      "logo": "traki.jpg",
+      "contactnumber": "(0412) 608 03 49",
+      "email": "trakiweb@traki.com",
+      "website": "https://home.traki.com/"
+    },
+    {
+      "name": "Ribs",
+      "logo": "ribs.jpg",
+      "contactnumber": "(0412)-079 54 31",
+      "email": "ribsburger@gmail.com",
+      "website": "https://shopgopedido.app/ribsburger"
+    },
+    {
+      "name": "Mundo Total",
+      "logo": "mundototal.jpg",
+      "contactnumber": "(0412) 618 22 34",
+      "email": "hola@totalmundo.com",
+      "website": "https://tumundototal.com/"
+    },
+    {
+      "name": "Cines Unidos",
+      "logo": "cinesunidos.jpg",
+      "contactnumber": "(63)(38) 502 9141 to 44",
+      "email": "reservations@cinesunidos.com",
+      "website": "https://www.cinesunidos.com/"
+    },
+    {
+      "name": "Arturos",
+      "logo": "arturos.jpg",
+      "contactnumber": "(0414) 878 72 09",
+      "email": "atencionalcorreo@arturos.com.ve",
+      "website": "https://linktr.ee/arturosdeverdad"
+    },
+    {
+      "name": "EPA",
+      "logo": "epa.jpg",
+      "contactnumber": "(0414) 372 82 53",
+      "email": "info@epa.com",
+      "website": "https://ve.epaenlinea.com/"
+    }
+  ]
+}

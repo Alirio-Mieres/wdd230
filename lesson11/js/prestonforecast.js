@@ -12,7 +12,7 @@ for (let i = 0; i < 5; i++) {
   document.getElementById(`day${[i]}`).textContent = forecast[i];
 }
 
-const forecastURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=4b98d1ee85ba9dea6016b5a7682cce3f&units=imperial"
+const forecastURL = "//api.openweathermap.org/data/2.5/onecall?lat=8.2981&lon=-62.7186&exclude=hourly,daily&appid={API key}"
 
 fetch(forecastURL)
   .then((response) => response.json())
