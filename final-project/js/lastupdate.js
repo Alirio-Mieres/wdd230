@@ -7,3 +7,4 @@ const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric
 let date = commerce.toLocaleDateString('en-UK', options);
 
 document.querySelector("#lastupdated").textContent = date;
+

@@ -1,7 +1,8 @@
 @media only screen and (min-width: 61rem){ 
   .buttonnav {
     display: none;
-  }
+  } 
+  
 
   nav ul.hide {
     display: block;

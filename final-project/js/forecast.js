@@ -32,3 +32,5 @@ fetch(forecastURL)
       document.querySelector(`#img${[i]}`).setAttribute("alt", description);
     }
   });
+
+  
