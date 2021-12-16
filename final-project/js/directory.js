@@ -1,6 +1,6 @@
-const requestURL = 'https://alirio-mieres.github.io/wdd230/final-project/json/directory.json';
+const directoryURL = 'json/directory.json';
 
-fetch(requestURL)
+fetch(directoryURL)
   .then(function (response) {
     return response.json();
   })

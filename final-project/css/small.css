@@ -1,32 +1,103 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: "Merriweather", serif;
+}
+
+p, ul{
+  font-family: "Poppins", sans-serif;
+}
+h2,h3{
+  text-align: center;
+}
+
 /*Header*/
-header{
+/*header {
   background-color: #247BA0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /*justify-content: center;
   align-items: center;
-}
-.logo-box img{
-  width: 90%;
+  margin: 0;*/
+
+  header {
+    display: flex;
+    background-color: #DDFFF7;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+
+  .buttonnav{
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    color: #555;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 15px;
+  }
+  .intro a{
+    background-color: #3772ff;
+    color: white;
+    
+  }
+
+header button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  color: #555;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 15px;
 }
 
-.principle{
+
+.logo-box img {
+  width: 90%;
+  margin-left: 0;
+}
+
+.principle {
   margin-top: 3em;
+  /*margin-left: 3rem;
+  margin-right: 3rem;*/
   text-align: center;
   font-size: 90%;
 }
 
-nav button{
+nav button {
   margin: .2rem 2%;
   background-color: transparent;
   border: none;
   color: #555;
 }
 
+/*img*/
+img{
+  max-width: 100%;
+}
+
+/*Main*/
+
+#content{
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+
+
+/*Articles home*/
+.expo img{
+  max-width: 81%;
+}
+
 /*Nav*/
 
 nav {
-
+  background-color: #DDFFF7;
   font-family: 'Oxygen', sans-serif;
   text-align: center;
   padding: 1em;
@@ -36,11 +107,6 @@ nav ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
-  overflow: hidden;
-}
-
-nav ul.hide{
-  display: none;
 }
 
 nav ul li a{
@@ -50,13 +116,12 @@ nav ul li a{
   text-decoration: none;
   color: #000;
   text-align: center;
-  background-color: #FFE066;
-  white-space: nowrap;
 }
 
 nav ul li a:hover{
   background-color: rgb(0, 0, 0, 0.4);
 }
+
 .clearfix:after {
   content: "";
   display: table;
@@ -74,16 +139,18 @@ nav ul li.active a {
   color: white;
 }
 
+
+
 /*Form*/
 
-form fieldset{
+form fieldset {
   margin: 2rem 0;
   border: 1px solid #333;
   border-radius: 10px;
   padding: .5rem 2%;
 }
 
-form legend{
+form legend {
   margin: 0 1rem;
   padding: 0.5rem 1rem;
   background-color: #247BA0;
@@ -91,31 +158,34 @@ form legend{
   border-radius: 4px;
 }
 
-form label.top, form div{
+form label.top,
+form div {
   display: block;
   margin-top: 1rem;
   color: #9c2c13;
   font-size: .8rem;
 }
-form label.top input, form label.top select{
+
+form label.top input,
+form label.top select {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
-  padding:  .7rem;
+  padding: .7rem;
   color: #555;
   width: 100%;
   max-width: 20rem;
-  background-color:  rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 form label.sbs {
   display: block;
   padding: 0.75rem 0;
-  color:#555;
+  color: #555;
 }
 
-form input.submitBtn{
+form input.submitBtn {
   border: none;
   background-color: #247BA0;
   color: white;
@@ -126,38 +196,116 @@ form input.submitBtn{
   max-width: 20rem;
 }
 
-form label.top input:required{
+form label.top input:required {
   border-left: red solid 6px;
 }
 
-form label.top input:required:valid{
+form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
-.textarea-storm{
+.textarea-storm {
   display: block;
   width: 100%;
   max-width: 95%;
   padding: .75rem;
 }
-.range{
+
+.range {
   display: block;
   margin-top: 1rem;
   color: #9c2c13;
   font-size: .8rem;
 }
 
-form label.range input{
+form label.range input {
   display: block;
   font-size: 1rem;
   width: 100%;
   max-width: 20rem;
 }
 
-.report{
+.report {
   text-align: center;
 }
-.thanks{
+
+.thanks {
   font-size: 1.5rem;
   margin: 5rem 0 5rem 0;
 }
+
+/*summary*/
+.summary{
+  background-color: #FFE066;
+  padding: 1.5em;
+  text-align: center;
+  margin: 0 30% 0 30%;
+}
+
+/*forecast*/
+.day-grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+
+.day-grid img{
+  max-width: 100%;
+}
+
+.col-head {
+	display: block;
+	border-bottom: 1px solid #333;
+	text-align: center;
+
+}
+
+.grid-col span{
+  display: block;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.grid-col {
+	background-color: #70C1B3;
+  border: 1px solid #333;
+}
+
+.data {
+	display: block;
+	font-size: 1.2em;
+	text-align: center;
+}
+.forecast-img{
+  display: flex;
+  justify-content: center;
+}
+
+/*contac-info-home*/
+.contact-info-home{
+text-align: center;
+}
+
+/* join*/
+
+
+/*Footer*/
+footer {
+  text-align: center;
+  background-color: #50514F;
+  padding: 0.8em;
+  margin-top: 2em;
+  color: white;
+
+}
+
+.join{
+  margin: 0 2rem;
+}
+
+.three-companies article img{
+  max-width: 80%;
+}
+

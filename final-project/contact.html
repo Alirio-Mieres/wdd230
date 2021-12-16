@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
-  <meta name="description"  content="/////////">
+  <meta name="description" content="/////////">
   <!---->
 
   <!--Favicon-->
@@ -13,7 +14,7 @@
 
   <!--Google Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>     
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!--Link CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="css/small.css">
@@ -32,16 +33,16 @@
     <div class="logo-box">
       <img src="../final-project/images/logo.png" alt="Logo Puerto Ordaz Commerce">
     </div>
-    
+
     <!--Title-->
-    <section class="principle"></section>
-    <h1>Puerto Ordaz Chamber of Commerce</h1>
-    <!--Words inspirationals-->
-    <button onclick="toggleMenu()">&#9776; Menu</button>
-  </section>
+    <section class="principle">
+      <h1>Puerto Ordaz Chamber of Commerce</h1>
+      <!--Words inspirationals-->
+    </section>
+    <button onclick="toggleMenu()" class="buttonnav">&#9776; Menu</button>
 
   </header>
-  <nav>
+  <nav class="clearfix">
     <ul id="primaryNav" class="hide">
 
       <li><a href="index.html">Home</a></li>
@@ -51,26 +52,66 @@
       <li class="active"><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+
   <main>
-    <!--images of the municipality and join BECOME A MEMBER-->
+    <div id="content">
+    <!--banne contact us-->
+    <h3>Contact Us</h3>
+
+    <picture>
+      <source media="(max-width: 499px)" srcset="images/contact-small.jpg">
+      <source media="(max-width: 800px)" srcset="images/contact-medium.jpg">
+      <img src="images/contact.jpg" alt="banner image">
+    </picture>
 
     <!--a description of the purpose of the chamber and its goals-->
 
-    <!--section highlighting three local companies-->
+    <section class="contact-info">
+      <h3>Contact Information</h3>
+      <p class="info-p">pozcommerce@gmail.com</p>
+      <p class="info-p">878-414-1234</p>
 
+    </section>
+
+    <!--section highlighting three local companies-->
+    <section class="directors">
+      <h3>Board of directors</h3>
+
+    </section>
     <!--an upcoming events area-->
 
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126345.30552069093!2d-62.833302456339965!3d8.273828135113057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcbf930957dda3f%3A0xa7be18a2d7cc3d22!2sPuerto%20Ordaz%2C%20Ciudad%20Guayana%208050%2C%20Bol%C3%ADvar!5e0!3m2!1ses-419!2sve!4v1639621017153!5m2!1ses-419!2sve"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
     <!--weather alerts if available (applicable) from the government and display it as a closeable message at the top of the page.-->
+
+    <form method="get" action="thanks.html">
+      <fieldset>
+        <legend>Applicant Information</legend>
+
+        <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z .-]{5,}" required
+          autofocus></label>
+        <label class="top">Phone <input type="tel" name="phone" placeholder="878-414-1234"></label>
+        <label class="top">Email* <input type="email" name="email" placeholder="pozcommerce@gmail.com" required></label>
+      </fieldset>
+      
+
+      <input type="submit" value="Send Report" class="submitBtn">
+
+    </form>
 
     <!--display and label a three day forecast of the "day" temperature using the current date-->
 
     <!--contact information, social media links (at least two and it is OK if they are not linked to a real account),-->
-    
+  </div>
   </main>
 
   <footer>
     <p class="footer-information">&copy; <span id="copyrightyear"></span> Puerto Ordaz Commerce | <a
-      href="attributions.html" >Attributions</a> | Alirio Mieres</p>
+        href="attributions.html">Attributions</a> | Alirio Mieres</p>
     <p class="updated">Last updated: <span id="lastupdated"></span></p>
   </footer>
 
@@ -78,4 +119,5 @@
   <script src="js/webfont.js"></script>
 
 </body>
+
 </html>

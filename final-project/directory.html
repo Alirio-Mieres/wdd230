@@ -23,6 +23,7 @@
   <script defer src="../final-project/js/lastupdate.js"></script>
   <script defer src="../final-project/js/lastupdate.js"></script>
   <script defer src="../final-project/js/menu.js"></script>
+  <script defer src="../final-project/js/directory.js"></script>
 
 </head>
 
@@ -32,16 +33,16 @@
     <div class="logo-box">
       <img src="../final-project/images/logo.png" alt="Logo Puerto Ordaz Commerce">
     </div>
-    
+
     <!--Title-->
-    <section class="principle"></section>
-    <h1>Puerto Ordaz Chamber of Commerce</h1>
-    <!--Words inspirationals-->
-    <button onclick="toggleMenu()">&#9776; Menu</button>
-  </section>
+    <section class="principle">
+      <h1>Puerto Ordaz Chamber of Commerce</h1>
+      <!--Words inspirationals-->
+    </section>
+    <button onclick="toggleMenu()" class="buttonnav">&#9776; Menu</button>
 
   </header>
-  <nav>
+  <nav class="clearfix">
     <ul id="primaryNav" class="hide">
 
       <li><a href="index.html">Home</a></li>
@@ -52,6 +53,7 @@
     </ul>
   </nav>
   <main>
+    <div id="content">
     <!--Hero Images-->
     <div id="content">
       <h2 class="title">Business Directory</h2>
@@ -59,9 +61,9 @@
       <div class="banner-box">
         
         <picture>
-          <source media="(max-width: 499px)" srcset="images/preston-hero-small.jpg">
-          <source media="(max-width: 800px)" srcset="images/preston-hero-medium.jpg">
-          <img src="images/preston-hero2.jpg" alt="banner image">
+          <source media="(max-width: 499px)" srcset="images/directory-small.jpg">
+          <source media="(max-width: 800px)" srcset="images/directory-medium.jpg">
+          <img src="images/directory.jpg" alt="banner image">
         </picture>
 
     <!--Directory-->
@@ -80,7 +82,7 @@
 
     <!--section highlighting three local companies-->
     <div class="cards">
-      
+
 
     </div>
 
@@ -92,6 +94,7 @@
 
     <!--contact information, social media links (at least two and it is OK if they are not linked to a real account),-->
     </div>
+  </div>
   </main>
 
   <footer>

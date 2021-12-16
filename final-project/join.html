@@ -28,21 +28,16 @@
 </head>
 
 <body>
-  <header>
-    <!--Logo-->
-    <div class="logo-box">
-      <img src="../final-project/images/logo.png" alt="Logo Puerto Ordaz Commerce">
-    </div>
-    
-    <!--Title-->
-    <section class="principle"></section>
-    <h1>Puerto Ordaz Chamber of Commerce</h1>
-    <!--Words inspirationals-->
-    <button onclick="toggleMenu()">&#9776; Menu</button>
-  </section>
 
+  <header>
+    <img src="../final-project/images/logo.png" alt="Logo Puerto Ordaz Commerce">
+    <section class="principle">
+      <h1>Puerto Ordaz Chamber of Commerce</h1>
+    </section>
+    <button onclick="toggleMenu()" class="buttonnav">&#9776; Menu</button>
   </header>
-  <nav>
+
+  <nav class="clearfix">
     <ul id="primaryNav" class="hide">
 
       <li><a href="index.html">Home</a></li>
@@ -53,11 +48,37 @@
     </ul>
   </nav>
   <main>
-    <!--images of the municipality and join BECOME A MEMBER-->
+    <div id="content">
 
-    <!--a description of the purpose of the chamber and its goals-->
 
-    <form method="get" action="thanks.html">
+    <h2>Join the chamber of commerce</h2>
+
+    <picture>
+      <source media="(max-width: 499px)" srcset="images/join-small.jpg">
+      <source media="(max-width: 800px)" srcset="images/join-medium.jpg">
+      <img src="../final-project/images/join.jpg" alt="banner image">
+    </picture>
+
+    <section class="offer"> 
+      <p><strong>Non-profit ($100)</strong><br>
+        It offers a free directory of the organization's members.
+      </p>
+
+      <p><strong>Bronze ($200)</strong><br>
+        It offers a free directory of the organization's members and social media posts.
+      </p>
+
+      <p><strong>Silver ($400)</strong><br>
+        It offers a free directory of the organization's members, social media posts, commercial training, and lunch tickets.
+      </p>
+
+      <p><strong>Gold ($1000)</strong><br>
+        Offer all of the above and sponsorships with levels of advertising.
+      </p>
+
+    </section>
+
+    <form method="get" action="thanks.html" class="join">
       <fieldset>
         <legend>Applicant Information</legend>
 
@@ -73,30 +94,27 @@
 
       <fieldset>
         <legend>Business Information</legend>
-        <label class="top">Business website <input type="url" name="url" placeholder="http://"></label>
-        <!--Buscar tipo para la direccion-->
-        <label class="top">Business address <input type="street-address" name="address"></label>
-        <label class="top">Business description <input type="text" name="description"></label>
+        <label class="top">Business Name <input type="text" name="businessn" pattern="[A-Za-z .-]{5,}"></label>
+        <label class="top">Business Website <input type="url" name="url" placeholder="http://"></label>
+
+        <label class="top">Business Address <input type="text" name="address"></label>
+        <label class="top">Business Description <input type="text" name="description"></label>
        
         <div>Membership level selection</div>
-        <!--Investigar value para los botones y que es beginner y cada uno-->
+
         <label class="sbs"><input type="radio" name="audience" value="beginner"> Non-profit ($100)</label>
         <label class="sbs"><input type="radio" name="audience" value="intermediate"> Bronze ($200)</label>
         <label class="sbs"><input type="radio" name="audience" value="advanced"> Silver ($400)</label>
         <label class="sbs"><input type="radio" name="audience" value="advanced"> Gold ($1000)</label>
-      </fieldset>
-
-      <fieldset>
-        <legend>Additional Information Or Comments</legend>
-        <label for="subject">.<textarea id="subject" name="subject" rows="10" cols="68"
-            placeholder="Enter text here..."></textarea></label>
+        <label for="subject">.<textarea id="subject" name="subject" rows="7" cols="45"
+          placeholder="Enter text here..."></textarea></label>
       </fieldset>
 
 
       <input type="submit" value="Send Report" class="submitBtn">
 
     </form>
-
+  </div>
   </main>
 
   <footer>

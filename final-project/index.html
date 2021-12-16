@@ -33,17 +33,17 @@
     <div class="logo-box">
       <img src="../final-project/images/logo.png" alt="Logo Puerto Ordaz Commerce">
     </div>
-    
+
     <!--Title-->
-    <section class="principle"></section>
-    <h1>Puerto Ordaz Chamber of Commerce</h1>
-    <!--Words inspirationals-->
-    <button onclick="toggleMenu()">&#9776; Menu</button>
-  </section>
+    <section class="principle">
+      <h1>Puerto Ordaz Chamber of Commerce</h1>
+      <!--Words inspirationals-->
+    </section>
+    <button onclick="toggleMenu()" class="buttonnav">&#9776; Menu</button>
 
   </header>
-  
-  <nav> 
+
+  <nav class="clearfix">
     <ul id="primaryNav" class="hide">
 
       <li class="active"><a href="index.html">Home</a></li>
@@ -54,54 +54,67 @@
     </ul>
   </nav>
   <main>
+    <div id="content">
     <!--images of the municipality and join BECOME A MEMBER-->
     <section class="intro">
-
+      <div class="call">
       <h2>Discover the commerce of Puerto Ordaz</h2>
       <a href="./join.html">Join us</a>
+      </div>
 
       <picture>
-        <source media="(max-width: 499px)" srcset="images/preston-hero-small.jpg">
-        <source media="(max-width: 800px)" srcset="images/preston-hero-medium.jpg">
-        <img src=".//images/images2.jpg" alt="banner image">
+        <img src="../final-project/images/puertoordaz.jpg" alt="banner image">
       </picture>
+
     </section>
 
 
 
     <!--a description of the purpose of the chamber and its goals-->
-
-    <section>
-      <h3>The Chamber of Commerce</h3>
-      <p>The purpose of Puerto Ordaz Commerce is to generate interest and enthusiasm in local businesses. We are
+    <h3>The Chamber of Commerce</h3>
+    <section class="description-chamber">
+      
+      <p>  <picture>
+        <img src="../final-project/images/poz.jpg" alt="banner image">
+      </picture>The purpose of Puerto Ordaz Commerce is to generate interest and enthusiasm in local businesses. We are
         committed to the community, and we are constantly holding events and charities.
         We want you to be successful in your business, when entering Puerto Ordaz Commerce, you will obtain unmatched
         benefits. We have the best advice, and our north is always teamwork. Do not wait any longer and join.</p>
+        
+      
     </section>
 
     <!--section highlighting three local companies-->
 
-    <section>
+    <section class="three-companies">
       <h3>Local Company Advertisement</h3>
 
-      <article>
+      <article class="com1">
+        <div>
         <img src="../final-project/images/traki.jpg" alt="Traki logo">
+      </div>
         <p>resumen traki</p>
       </article>
-      <article>
+      
+      <article class="com2">
+        <div>
         <img src="../final-project/images/daka.jpg" alt="Daka logo">
+      </div>
         <p>resumen daka</p>
       </article>
-      <img src="../final-project/images/ribs.jpg" alt="Ribs logo">
-      <p>resumen Ribs</p>
-      <article>
 
+    
+      <article class="com3">
+        <div>
+        <img src="../final-project/images/epa.jpg" alt="Ribs logo">
+      </div>
+        <p>resumen Ribs</p>
       </article>
     </section>
 
     <!--an upcoming events area-->
 
-    <section>
+    <section class="events">
       <h3>Upcoming Events</h3>
 
       <article>
@@ -109,7 +122,9 @@
         <p>December 17 2021<br>
           3:00 PM
         </p>
+        <div class="img-articles">
         <img src="../final-project/images/dancemaster.jpg" alt="Dance MasterClass event">
+       </div>
         <p>
           The purpose of this activity is to collect with each of the attendees or sponsors a new or used toy in good
           condition to give this Christmas to children with few resources.
@@ -118,12 +133,14 @@
         </p>
       </article>
 
-      <article>
+      <article class="expo">
         <h3>Expo Meru</h3>
         <p>December 21 2021<br>
           10:00 AM
         </p>
+        <div class="img-articles">
         <img src="../final-project/images/meru.jpg" alt="">
+      </div>
         <p>
           The Plaza Meru hotel invites you to the 32nd edition called "Expo Merú Navideña Recargada". Enjoy and live an
           unforgettable experience with us and the talented bands of the city.
@@ -138,7 +155,9 @@
           January 27 2022
           5:00 PM
         </p>
+        <div class="img-articles">
         <img src="../final-project/images/footballevent.jpg" alt="Football event">
+      </div>
         <p>
           Enjoy the match that our team will have here in Puerto Ordaz to qualify for the World Cup.
         </p>
@@ -148,6 +167,8 @@
 
 
     <!--display and label a three day forecast of the "day" temperature using the current date-->
+
+
     <section class="summary">
       <h3>Weather Summary</h3>
       <p>Currently: <span id="description">Sunny</span></p>
@@ -176,19 +197,20 @@
       </div>
     </div>
 
+
     <!--contact information, social media links (at least two and it is OK if they are not linked to a real account),-->
-    <section>
-    <h3>Contact Information</h3>
-    <p class="info-p">pozcommerce@gmail.com</p>
-    <p class="info-p">878-414-1234</p>
-    <div class="social">
-      <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
-      <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Youtube icon"></a>
-      <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="Twitter icon"></a>
-    </div>
-  </section>
+    <section class="contact-info-home">
+      <h3>Contact Information</h3>
+      <p class="info-p">pozcommerce@gmail.com</p>
+      <p class="info-p">878-414-1234</p>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook icon"></a>
+        <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Youtube icon"></a>
+        <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" alt="Twitter icon"></a>
+      </div>
+    </section>
 
-
+  </div>
   </main>
 
   <footer>
