@@ -43,6 +43,7 @@
   .contact-info-home{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 2rem 14rem;
     /*gap: -20rem;*/
    }
    .contact-info-home h3{
@@ -57,7 +58,7 @@
 
    .social{
      grid-column: 2;
-     margin-right: 5rem;
+      margin-top: -2rem;
    }
 
    .description-chamber p{
@@ -109,7 +110,10 @@
     margin: 0;
   }
 
-
+  
+ .grid-col{
+   margin: auto 2rem;
+ }
   
 
 

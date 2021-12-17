@@ -155,6 +155,10 @@
   /*summary*/
   .summary{
     padding: 1.5em;
-    margin: 2rem 35% 0 35%;
+    margin: 5rem 35%;
+  }
+  .contact-info-home{
+
+    margin: 2rem 12rem;
   }
 }
