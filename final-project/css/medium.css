@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35rem) { 
   #content{
-    max-width: 1200px;
+    max-width: 750px;
     margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -17,7 +17,8 @@
     /*Intro home*/
 .intro{
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  margin-top: 2rem;
   /*display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row: 1;
@@ -33,26 +34,36 @@
 }
 
 .intro a{
-  display: flex;
-  justify-content: center;
   padding: 1.5rem;
-  margin: 0 5rem;
+  margin: 0 1rem;
   border-radius: 1rem;
 }
 
 .intro img{
   /*grid-column: 2;
   marg*/
-  max-width: 100%;
+  max-width: 95%;
 
 }
   
   .description-chamber{
-    display: flex;
-    flex-direction:row-reverse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
   }
+  .description-chamber h3{
+    grid-column: 1/3;
+  }
+
   .description-chamber p{
-    margin-left: 5rem;
+    margin: 5rem 2rem;
+    grid-column: 2;
+  }
+  
+  .description-chamber img{
+    grid-column: 1;
+
   }
 
   /*.three-companies*/
@@ -60,11 +71,16 @@
   .three-companies{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 0.5rem;
   }
   .three-companies article{
-    background-color: blue;
-      }
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  div.three-companies-img{
+    width: 100%;
+  }
 
   .three-companies h3{
     grid-column: 1/4;
@@ -72,6 +88,12 @@
     text-align: center;
     margin-bottom: 2rem;
   }
+
+ /* .three-companies div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }*/
   .com1{
     grid-column: 1;
   }
@@ -113,5 +135,9 @@
 
   .description-chamber img{
     float: left;
+  }
+  .day-grid{
+    gap: 4rem;
+    margin: 0 10rem;
   }
 }

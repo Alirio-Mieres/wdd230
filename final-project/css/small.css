@@ -40,6 +40,11 @@ h2,h3{
   .intro a{
     background-color: #3772ff;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem 5rem;
+    border-radius: 1rem;
     
   }
 
@@ -82,18 +87,41 @@ img{
 /*Main*/
 
 #content{
-  max-width: 960px;
+  max-width: 320px;
   margin: 0 auto;
   margin-top: 3em;
   margin-bottom: 3em;
 }
 
-
+section{
+  margin-top: 2rem;
+}
 
 /*Articles home*/
 .expo img{
   max-width: 81%;
 }
+
+.img-articles{
+  display: flex;
+  justify-content: center;
+}
+
+/*Companys*/
+/*Companys*/
+.three-companies{
+  text-align: center;
+}
+.three-companies-img{
+  display: flex;
+  justify-content: center;
+}
+.three-companies article{
+  background-color: #F46036;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+    }
 
 /*Nav*/
 

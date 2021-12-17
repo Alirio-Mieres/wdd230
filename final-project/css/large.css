@@ -1,4 +1,11 @@
 @media only screen and (min-width: 61rem){ 
+  #content{
+    max-width: 1200px;
+    /*margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;*/
+  }
+
   .buttonnav {
     display: none;
   } 
@@ -9,7 +16,7 @@
   }
 
   nav ul {
-    margin-left: 18.5%;
+    margin-left: 25%;
     text-align: center;
  
   }
