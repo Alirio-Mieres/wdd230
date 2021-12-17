@@ -193,4 +193,15 @@
     margin-top: 3rem;
     margin-left: 2rem;
   }
+
+  form fieldset {
+
+    min-width: 20rem;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 }
