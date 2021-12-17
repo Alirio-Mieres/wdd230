@@ -115,6 +115,43 @@
    margin: auto 2rem;
  }
   
+ form label.top input,
+ form label.top select{
+   max-width: 20rem;
+ }
+ 
+ .join{
+   margin: 2rem 20rem;
+ }
+ .offer{
+  margin: 2rem 15rem;
+}
+
+.directors{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.directors h3{
+  grid-column: 1/4;
+}
+.directors section{
+  list-style: none;
+  margin-top: 1rem;
+  background-color: #DDFFF7;
+  padding-left: 2rem;
+}
+
+textarea {
+  resize: vertical;
+  max-width: 25rem;
+}
+
+.contact-info{
+  margin: 0;
+  margin-right: 15rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 
 

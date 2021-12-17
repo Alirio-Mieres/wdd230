@@ -55,58 +55,107 @@
 
   <main>
     <div id="content">
-    <!--banne contact us-->
-    <h3>Contact Us</h3>
+      <h3>Contact Us</h3>
 
-    <picture>
-      <source media="(max-width: 499px)" srcset="images/contact-small.jpg">
-      <source media="(max-width: 800px)" srcset="images/contact-medium.jpg">
-      <img src="images/contact.jpg" alt="banner image">
-    </picture>
+      <picture>
+        <source media="(max-width: 499px)" srcset="images/contact-small.jpg">
+        <source media="(max-width: 800px)" srcset="images/contact-medium.jpg">
+        <img src="images/contact.jpg" alt="banner image">
+      </picture>
 
-    <!--a description of the purpose of the chamber and its goals-->
+      <form method="get" action="thanks.html" class="join">
+        <fieldset>
+          <legend>Contact Us</legend>
 
-    <section class="contact-info">
-      <h3>Contact Information</h3>
-      <p class="info-p">pozcommerce@gmail.com</p>
-      <p class="info-p">878-414-1234</p>
+          <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z .-]{5,}" required
+              autofocus></label>
+          <label class="top">Phone <input type="tel" name="phone" placeholder="878-414-1234"></label>
+          <label class="top">Email* <input type="email" name="email" placeholder="pozcommerce@gmail.com"
+              required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Additional Information Or Comments</legend>
 
-    </section>
+          <label for="subject">.<textarea id="subject" name="subject" rows="10" cols="40"
+              placeholder="Enter text here..."></textarea></label>
+        </fieldset>
+        <input type="submit" value="Send Report" class="submitBtn">
+      </form>
 
-    <!--section highlighting three local companies-->
-    <section class="directors">
-      <h3>Board of directors</h3>
 
-    </section>
-    <!--an upcoming events area-->
 
-    <section class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126345.30552069093!2d-62.833302456339965!3d8.273828135113057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcbf930957dda3f%3A0xa7be18a2d7cc3d22!2sPuerto%20Ordaz%2C%20Ciudad%20Guayana%208050%2C%20Bol%C3%ADvar!5e0!3m2!1ses-419!2sve!4v1639621017153!5m2!1ses-419!2sve"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
+      <section class="contact-info">
+        <div class="contact-data">
+          <h3>Contact Information</h3>
+          <p class="info-p">pozcommerce@gmail.com</p>
+          <p class="info-p">878-414-1234</p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126345.30552069093!2d-62.833302456339965!3d8.273828135113057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcbf930957dda3f%3A0xa7be18a2d7cc3d22!2sPuerto%20Ordaz%2C%20Ciudad%20Guayana%208050%2C%20Bol%C3%ADvar!5e0!3m2!1ses-419!2sve!4v1639621017153!5m2!1ses-419!2sve"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
 
-    <!--weather alerts if available (applicable) from the government and display it as a closeable message at the top of the page.-->
+      <section class="directors">
+        <h3>Board of directors</h3>
+        <section>
+          <h4>Jose Vera</h4>
+          <p>President of the Chamber of Commerce</p>
+        </section>
+        <section>
+          <h4>Dennys Marquez</h4>
+          <p>First Vice President</p>
+        </section>
+        <section>
+          <h4>Andres Moffi</h4>
+          <p>Second Vice President</p>
+        </section>
+        <section>
+          <h4>Luis Martinez</h4>
+          <p>Secretary of the organization</p>
+        </section>
+        <section>
+          <h4>Javier Montalti</h4>
+          <p>Press and communications</p>
+        </section>
+        <section>
+          <h4>Ricardo Zaragoza</h4>
+          <p>Coordination of public records</p>
+        </section>
+        <section>
+          <h4>Ramon Sarmiento</h4>
+          <p>Legal accounting</p>
+        </section>
+        <section>
+          <h4>Pedro Martinez</h4>
+          <p>Accounting and financial management</p>
+        </section>
+        <section>
+          <h4>Rodolfo Perales</h4>
+          <p>Systems management</p>
+        </section>
 
-    <form method="get" action="thanks.html">
-      <fieldset>
-        <legend>Applicant Information</legend>
+        <!--<ul>
+          <li>Jose Vera<br>President of the Chamber of Commerce</li>
+          <li>Dennys Marquez<br>First Vice President</li>
+          <li>Andres Moffi<br>Second Vice President</li>
+          <li>Luis Martinez <br>Secretary of the organization</li>
+          <li>Javier Montalti <br>Press and communications</li>
+          <li>Ricardo Zaragoza <br>Coordination of public records</li>
+          <li>Ramon Sarmiento<br>Legal accounting</li>
+          <li>Pedro Martinez<br>Accounting and financial management</li>
+          <li>Rodolfo Perales<br>Systems management</li>
+        </ul>-->
 
-        <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z .-]{5,}" required
-          autofocus></label>
-        <label class="top">Phone <input type="tel" name="phone" placeholder="878-414-1234"></label>
-        <label class="top">Email* <input type="email" name="email" placeholder="pozcommerce@gmail.com" required></label>
-      </fieldset>
-      
 
-      <input type="submit" value="Send Report" class="submitBtn">
+      </section>
 
-    </form>
+      <section class="map">
 
-    <!--display and label a three day forecast of the "day" temperature using the current date-->
+      </section>
 
-    <!--contact information, social media links (at least two and it is OK if they are not linked to a real account),-->
-  </div>
+
+
+    </div>
   </main>
 
   <footer>
