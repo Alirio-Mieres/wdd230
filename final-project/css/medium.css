@@ -6,7 +6,9 @@
     margin-bottom: 2em;
   }
   
-  
+  h2{
+    margin-bottom: 3rem;
+  }
   .principle{
     margin-right: -8rem;
   }
@@ -14,6 +16,7 @@
   header button{
     margin: 0.2rem 10%;
   }
+
     /*Intro home*/
 .intro{
   display: flex;
@@ -28,14 +31,17 @@
 .intro h2{
  /* grid-column: 1;*/
  margin-top: 2rem;
- margin-left: 1rem;
  font-size: 2.2rem;
  text-align: center;
 }
 
+.call h3{
+  margin-right: 2rem;
+}
+
 .intro a{
   padding: 1.5rem;
-  margin: 0 1rem;
+  margin: 0 4rem;
   border-radius: 1rem;
 }
 
@@ -144,5 +150,11 @@
   }
   .events p{
     margin: 2rem 5rem;
+  }
+
+  /*summary*/
+  .summary{
+    padding: 1.5em;
+    margin: 2rem 35% 0 35%;
   }
 }
