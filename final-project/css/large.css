@@ -39,13 +39,16 @@
     margin: 0;
   }
 
-  /*contac-info-home*/
+
   .contact-info-home{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 2rem 14rem;
-    /*gap: -20rem;*/
    }
+   .contact-data{
+    margin-top: 3rem;
+    margin-left: 7rem;
+  }
    .contact-info-home h3{
      grid-column: 1/3;
      margin-top: 2rem;
@@ -155,7 +158,7 @@ textarea {
 
 .cards{
   grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
+  
 }
 
 
