@@ -268,10 +268,12 @@ form label.range input {
 
 /*summary*/
 .summary{
-  background-color: #FFE066;
+  background-color: #3772FF;
+  color: white;
   padding: 1.5em;
   text-align: center;
-  margin: 0 30% 0 30%;
+  margin: 0 15% 0 15%;
+  border-radius: 1rem;
 }
 
 /*forecast*/
