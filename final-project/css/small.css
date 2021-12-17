@@ -98,9 +98,7 @@ section{
 }
 
 /*Articles home*/
-.expo img{
-  max-width: 81%;
-}
+
 
 .img-articles{
   display: flex;
@@ -122,6 +120,11 @@ section{
   padding: 1rem;
   margin-top: 1rem;
     }
+
+/*Events*/
+.events article{
+  text-align: center;
+}
 
 /*Nav*/
 
