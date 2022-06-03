@@ -1,2 +1,2 @@
-#WDD 330
+#WDD 230
 Web Frontend Development I repository
